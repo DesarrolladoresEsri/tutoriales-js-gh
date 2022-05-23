@@ -77,6 +77,14 @@ const map = new Map({
 ## Cree una vista de mapa
 Use una clase ```MapView```para establecer la ubicación del mapa que se mostrará. 
 
-8. Cree una ```MapView``` y establezca la propiedad ```map```. Para centrar la vista de mapa, establezca la propiedad ```center``` como ```-74.090923, 4.694939``` y la propiedad ```zoom``` como ```11```. Establezca la propiedad ```container```como ```viewDiv```para mostrar los contenidos del mapa. 
+8. Cree una ```MapView``` y establezca la propiedad ```map```. Para centrar la vista de mapa, establezca la propiedad ```center``` como ```-74.090923, 4.694939``` y la propiedad ```zoom``` como ```11```. Establezca la propiedad ```container```como ```viewDiv```para mostrar los contenidos del mapa.
+```javascript
+const view = new MapView({
+    map: map,
+    center: [-74.090923, 4.694939], 
+    zoom: 11, 
+    container: "viewDiv" 
+});
+```
 ## Ejecute su aplicación
 Agregue su documento al servidor web de su preferencia y visualice el resultado en un navegador web.
