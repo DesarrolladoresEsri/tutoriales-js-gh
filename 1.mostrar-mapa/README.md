@@ -65,6 +65,7 @@ La API de ArcGIS para JavaScript contiene módulos AMD. Haga referencia a los m�
 6. Copie la API key para poder usarla en el siguiente paso.
 ## Cree un mapa
 Use un `Map` para establecer una capa de mapa base y aplicar su API key.
+
 7. En su documento HTML, en la instrucción `require`, cree un nuevo `Map` y establezca la propiedad `basemap`como `arcgis-topographic`. Para habilitar el acceso al servicio de mapas base, establezca la propiedad `apiKey` de el `Map`.
 ```javascript
 esriConfig.apiKey = "SU_API_KEY";
@@ -75,6 +76,7 @@ const map = new Map({
 ```
 ## Cree una vista de mapa
 Use una clase ```MapView```para establecer la ubicación del mapa que se mostrará. 
+
 8. Cree una ```MapView``` y establezca la propiedad ```map```. Para centrar la vista de mapa, establezca la propiedad ```center``` como ```-74.090923, 4.694939``` y la propiedad ```zoom``` como ```11```. Establezca la propiedad ```container```como ```viewDiv```para mostrar los contenidos del mapa. 
 ## Ejecute su aplicación
 Agregue su documento al servidor web de su preferencia y visualice el resultado en un navegador web.
