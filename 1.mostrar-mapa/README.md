@@ -43,6 +43,7 @@ En este ejercicio creará y mostrará un mapa de Bogotá, Colombia usando la cap
 ```
 ## Agregue los módulos
 La API de ArcGIS para JavaScript contiene módulos AMD. Haga referencia a los módulos `Map` y `MapView` en la instrucción `require`. 
+
 4. En la etiqueta `head`, agregue una etiqueta `<script>` y una instrucción `require` de AMD para cargar los módulos `Map` y `MapView`.
 ```html
 <script>
