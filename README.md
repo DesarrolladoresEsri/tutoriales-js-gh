@@ -6,3 +6,7 @@ Si quiere conocer todo el potencial, características y herramientas que ofrece 
 Un mapa contiene capas de datos geográficos. Un mapa contiene una capa de mapa base y, opcionalmente, una o más capas de datos. Puede mostrar el área específica de un mapa usando una vista de mapa y configurando la ubicación y el nivel de cercanía.
 En este ejercicio creará y mostrará un mapa de Bogotá, Colombia usando la capa de mapa base topográfico.
 - [Ir al ejercicio](1.mostrar-mapa/README.md)
+## Ejercicio 2: Mostrar Mapa
+El servicio de capa de mapa base proporciona un número de estilos de capas de mapa base tales como topográfico, calles e imágenes que puede usar en sus mapas.
+En este ejercicio usará los widgets BasemapGallery y BasemapToggle para seleccionar y mostrar diferentes capas de mapa base.
+- [Ir al ejercicio](2.mapa-base/README.md)
