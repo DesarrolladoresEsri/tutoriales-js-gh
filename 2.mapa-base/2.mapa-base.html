@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
-        <title>Mostrar un mapa: ArcGIS API para JavaScript</title>
+        <title>Cambiar Mapa Base: ArcGIS API para JavaScript</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script>
             esriConfig = {
@@ -27,11 +27,19 @@
             require([
                 "esri/config",
                 "esri/Map",
-                "esri/views/MapView"
+                "esri/views/MapView",
+
+                "esri/widgets/BasemapToggle",
+                "esri/widgets/BasemapGallery",
+                "esri/widgets/Expand"
             ], function (
                 esriConfig,
                 Map,
-                MapView
+                MapView,
+
+                BasemapToggle, 
+                BasemapGallery,
+                Expand
             ) {
                 esriConfig.apiKey = "SU_API_KEY";
 
@@ -45,6 +53,23 @@
                     zoom: 11, 
                     container: "viewDiv" 
                 });
+
+                const basemapToggle = new BasemapToggle({
+                    view: view,
+                    nextBasemap: "arcgis-imagery"
+                });
+                view.ui.add(basemapToggle,"bottom-right");
+
+                const basemapGallery = new BasemapGallery({
+                    view: view
+                });
+
+                const bgExpand = new Expand({
+                    view: view,
+                    content: basemapGallery,
+                    autoCollapse: true
+                });
+                view.ui.add(bgExpand, "top-right");
             });
         </script>
 
