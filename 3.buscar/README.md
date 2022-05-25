@@ -1,5 +1,5 @@
 # Ejercicio 3: Buscar Direcciones
-La geocodificación es el proceso de una dirección o lugar en una ubicación. El servicio de Geocodificación puede buscar una dirección o lugar y realizar geocodificación inversa. Use el widget Search para acceder al servicio de Geocodificación y realizar búsquedas interactivas.
+La geocodificación es el proceso de convertir una dirección o lugar en una ubicación. El servicio de Geocodificación puede buscar una dirección o lugar y realizar geocodificación inversa. Use el widget Search para acceder al servicio de Geocodificación y realizar búsquedas interactivas.
 En este ejercicio usará el widget Search para buscar direcciones y sitios de interés.
 ## Cree una página HTML
 1. Haciendo uso del editor de código de su preferencia, abra o copie el contenido del ejercicio anterior.

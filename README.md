@@ -11,6 +11,10 @@ El servicio de capa de mapa base proporciona un número de estilos de capas de m
 En este ejercicio usará los widgets BasemapGallery y BasemapToggle para seleccionar y mostrar diferentes capas de mapa base.
 - [Ir al ejercicio](2.mapa-base/README.md)
 ## Ejercicio 3: Buscar Direcciones
-El servicio de capa de mapa base proporciona un número de estilos de capas de mapa base tales como topográfico, calles e imágenes que puede usar en sus mapas.
-En este ejercicio usará los widgets BasemapGallery y BasemapToggle para seleccionar y mostrar diferentes capas de mapa base.
+La geocodificación es el proceso de convertir una dirección o lugar en una ubicación. El servicio de Geocodificación puede buscar una dirección o lugar y realizar geocodificación inversa. Use el widget Search para acceder al servicio de Geocodificación y realizar búsquedas interactivas.
+En este ejercicio usará el widget Search para buscar direcciones y sitios de interés.
 - [Ir al ejercicio](3.buscar/README.md)
+## Ejercicio 4: Geocidificación Inversa
+La geocodificación inversa es el proceso de convertir una ubicación en una dirección o sitio. Para hacer una geocodificación inversa se usa el servicio de geocodificación y la operación reverseGeocode. Esta operación requiere una ubicación inicial y retorna una dirección con atributos tales como el nombre del lugar y la ubicación. Para simplificar el acceso al servicio de geocodificación, en este ejercicio se usa el módulo locator.
+En este ejercicio usará el módulo locator para hacer una geocidificación inversa y encontrar una dirección donde haga clic en el mapa.
+- [Ir al ejercicio](4.geocodificacion-inversa/README.md)
