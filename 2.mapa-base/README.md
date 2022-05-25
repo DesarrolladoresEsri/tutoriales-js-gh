@@ -2,7 +2,7 @@
 El servicio de capa de mapa base proporciona un número de estilos de capas de mapa base tales como topográfico, calles e imágenes que puede usar en sus mapas.
 En este ejercicio usará los widgets BasemapGallery y BasemapToggle para seleccionar y mostrar diferentes capas de mapa base.
 ## Cree una página HTML
-1. Haciendo uso del editor de código de su preferencia, abra o copie el contenido del ejercicio 1. Mostrar Mapa.
+1. Haciendo uso del editor de código de su preferencia, abra o copie el contenido del ejercicio anterior.
 ## Agregue los módulos
 2. En la instrucción `require`, agregue los módulos `BasemapToggle`, `BasemapGallery` y `Expand`.
 ```html
@@ -10,28 +10,28 @@ En este ejercicio usará los widgets BasemapGallery y BasemapToggle para selecci
 <script src="https://js.arcgis.com/4.23/"></script>
 
 <script>
-            require([
-                "esri/config",
-                "esri/Map",
-                "esri/views/MapView",
-                /* BLOQUE AGREGADO */
-                "esri/widgets/BasemapToggle",
-                "esri/widgets/BasemapGallery",
-                "esri/widgets/Expand"
-                /* FIN BLOQUE AGREGADO */
-            ], function (
-                esriConfig,
-                Map,
-                MapView,
-                /* BLOQUE AGREGADO */
-                BasemapToggle, 
-                BasemapGallery,
-                Expand
-                /* FIN BLOQUE AGREGADO */
-            ) {
-                
-            });
-        </script>
+    require([
+        "esri/config",
+        "esri/Map",
+        "esri/views/MapView",
+        /* BLOQUE AGREGADO */
+        "esri/widgets/BasemapToggle",
+        "esri/widgets/BasemapGallery",
+        "esri/widgets/Expand"
+        /* FIN BLOQUE AGREGADO */
+    ], function (
+        esriConfig,
+        Map,
+        MapView,
+        /* BLOQUE AGREGADO */
+        BasemapToggle, 
+        BasemapGallery,
+        Expand
+        /* FIN BLOQUE AGREGADO */
+    ) {
+        
+    });
+</script>
 ```
 ## Alterne entre mapas base
 Una forma sencilla para habilitar la selección entre dos mapas base es usar el widget **Basemap Toggle**. Use el widget para alternar entre los mapas base `arcgis-topographic` y `arcgis-imagery`.

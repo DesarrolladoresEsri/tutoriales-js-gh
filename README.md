@@ -10,3 +10,7 @@ En este ejercicio creará y mostrará un mapa de Bogotá, Colombia usando la cap
 El servicio de capa de mapa base proporciona un número de estilos de capas de mapa base tales como topográfico, calles e imágenes que puede usar en sus mapas.
 En este ejercicio usará los widgets BasemapGallery y BasemapToggle para seleccionar y mostrar diferentes capas de mapa base.
 - [Ir al ejercicio](2.mapa-base/README.md)
+## Ejercicio 3: Buscar Direcciones
+El servicio de capa de mapa base proporciona un número de estilos de capas de mapa base tales como topográfico, calles e imágenes que puede usar en sus mapas.
+En este ejercicio usará los widgets BasemapGallery y BasemapToggle para seleccionar y mostrar diferentes capas de mapa base.
+- [Ir al ejercicio](3.buscar/README.md)
