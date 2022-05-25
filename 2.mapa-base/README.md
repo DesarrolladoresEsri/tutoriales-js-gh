@@ -1,6 +1,6 @@
 # Ejercicio 2: Mostrar Mapa
 El servicio de capa de mapa base proporciona un número de estilos de capas de mapa base tales como topográfico, calles e imágenes que puede usar en sus mapas.
-En este ejercicio usará los widgets BasemapGallery y BasemapToggle para seleccionar y mostrar diferentes capas de mapa base.
+En este ejercicio usará los widgets `BasemapGallery` y `BasemapToggle` para seleccionar y mostrar diferentes capas de mapa base.
 ## Cree una página HTML
 1. Haciendo uso del editor de código de su preferencia, abra o copie el contenido del ejercicio anterior.
 ## Agregue los módulos

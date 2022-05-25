@@ -1,6 +1,6 @@
 # Ejercicio 4: Geocidificación Inversa
-La geocodificación inversa es el proceso de convertir una ubicación en una dirección o sitio. Para hacer una geocodificación inversa se usa el servicio de geocodificación y la operación reverseGeocode. Esta operación requiere una ubicación inicial y retorna una dirección con atributos tales como el nombre del lugar y la ubicación. Para simplificar el acceso al servicio de geocodificación, en este ejercicio se usa el módulo locator.
-En este ejercicio usará el módulo locator para hacer una geocidificación inversa y encontrar una dirección donde haga clic en el mapa.
+La geocodificación inversa es el proceso de convertir una ubicación en una dirección o sitio. Para hacer una geocodificación inversa se usa el servicio de geocodificación y la operación `reverseGeocode`. Esta operación requiere una ubicación inicial y retorna una dirección con atributos tales como el nombre del lugar y la ubicación. Para simplificar el acceso al servicio de geocodificación, en este ejercicio se usa el módulo `locator`.
+En este ejercicio usará el módulo `locator` para hacer una geocidificación inversa y encontrar una dirección donde haga clic en el mapa.
 ## Cree una página HTML
 1. Haciendo uso del editor de código de su preferencia, abra o copie el contenido del ejercicio anterior.
 ## Agregue los módulos
@@ -98,7 +98,7 @@ view.on("hold", function(evt){
     const params = {
         location: evt.mapPoint
     };
-
+    /* BLOQUE AGREGADO */
     locator.locationToAddress(serviceUrl, params)
         .then(function(response) {
             const address = response.address;
@@ -107,7 +107,7 @@ view.on("hold", function(evt){
         }, function(err) {
         showAddress("No se encontró dirección.", evt.mapPoint);
     });
-
+    /* FIN BLOQUE AGREGADO */
 });
 ```
 ## Ejecute su aplicación
