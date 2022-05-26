@@ -21,3 +21,8 @@ En este ejercicio usará el módulo `locator` para hacer una geocidificación in
 ## Ejercicio 5: Mostrar Ubicación
 Las aplicaciones pueden encontrar, rastrear y mostrar le geolocalización de un dispositivo con el widget `Locate`. Este widget usa **HTML 5 Geolocation API** para encontrar la ubicación del dispositivo y proporcionar actualizaciones. Una vez su geolocalización se encuentra, puede acercarse a la ubicación, mostrar un gráfico y seguir los cambios de su ubicación. El widget `Locate` encuentra y se acerca a su ubicación después de que se hace clic en el botón.
 En este ejercicio usará el widget `Locate` para encontrar y mostrar su ubicación en un mapa.
+- [Ir al ejercicio](5.ubicacion/README.md)
+## Ejercicio 5: Mostrar Ubicación
+El cálculo de rutas es el proceso de encontrar el camino desde un origen a un destino en una red de calles. Puede usar el servicio de cálculo de rutas para encontrar rutas, obtener indicaciones de conducción, calcular tiempos de conducción y resolver problemas complejos de cálculo de rutas de múltiples vehículos. El widget `Directions` facilita el cálculo de indicaciones entre dos o más ubicaciones. Las indicaciones resultantes se muestran en detalle con instrucciones en cada giro.
+En este ejercicio usará el widget `Directions` para calcular una ruta entre dos o más ubicaciones.
+- [Ir al ejercicio](6.rutas/README.md)
